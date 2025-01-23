@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 600vh; 
+}
+
+th {
+  width: 120px;
+  padding: 25px 20px 30px 20px;  /* top right bottom left */
+}
+
+td {
+  padding: 8px;  /* Increase from 5px */
+}
+
+.time {
+  height: 60px;  /* Increase from 40px */
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.Event {
+  width: 120px;  /* Increased from 100px */
+  height: 80px;  /* Added fixed height */
+  border-radius: 5px;
+  padding: 8px 12px;  /* Added horizontal padding */
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Event h5 {
+  margin: 0 0 8px 0;  /* Added bottom margin */
+  font-size: 0.9em;
+  text-align: center;
+  padding-top: 2px; /* Added to move event name down */
+  color: rgb(0, 0, 0);
+}
+
+.Event h6 {
+  font-size: 0.7em;
+  font-weight: bold;  /* Changed from normal to bold */
+  margin-top: auto;
+  color: black;
+  padding-top: 10px;  /* Increased from 5px */
+}
+
+.pink {
+  background: rgb(255, 182, 193);  /* Darker pink */
+}
+
+.blue {
+  background: rgb(150, 200, 220);  /* Darker blue */
+}
+
+.green {
+  background: rgb(162, 225, 192);  /* Darker green */
+}
