@@ -1,8 +1,32 @@
-# React + Vite
+# 🗼 Lab 1: Timetabled — Paris Week Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive weekly calendar that visualizes a one-week itinerary in Paris for Alina. Built with React and styled as a clean grid with one-hour blocks, color‑coded events, and locations.
 
-Currently, two official plugins are available:
+![Timetabled Demo](https://github.com/user-attachments/assets/7be72145-d9c2-4e15-bfe8-065bef144c97)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Grid-style weekly calendar (Sunday → Saturday)
+- One-hour time slots (8am–5pm)
+- Color-coded activities: pink, blue, green
+- Per-event location details
+- Responsive layout
+
+## ✅ Requirements Met
+- [x] One-week calendar with one-hour blocks
+- [x] Distinct event titles
+- [x] Different colors per event type
+
+## 🌟 Stretch
+- [x] Extra info per event: description/location shown on each card
+
+## 🧭 Architecture
+- `App.jsx`: Page header, author info, renders `Calendar`
+- `Calendar.jsx`: 7-day table with hourly rows; places `Event` cells
+- `Event.jsx`: Displays event title and location; applies color class via `props.color`
+
+## 🚀 Run Locally
+```bash
+npm install
+npm run dev
+# open http://localhost:5173
+```
