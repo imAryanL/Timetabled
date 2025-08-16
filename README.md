@@ -1,4 +1,4 @@
-# 🗼 Lab 1: Timetabled — Paris Week Planner
+# 🗼 Timetabled — Paris Week Planner
 
 A simple, responsive weekly calendar that visualizes a one-week itinerary in Paris for Alina. Built with React and styled as a clean grid with one-hour blocks, color‑coded events, and locations.
 
